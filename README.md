@@ -1,2 +1,2 @@
 # Pipes en angular
-Este proyecto es un ejemplo de algunos pipes de angular 5 y es explicado en el siguiente articulo: 
+Este proyecto ha sido realizado como explicación al siguiente articulo: http://www.joseluisguisado.com/pipes-en-angular/
