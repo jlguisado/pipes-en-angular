@@ -1,0 +1,89 @@
+
+<div class="container">
+<table class="table table-inverse">
+  <thead>
+    <tr>
+      <th>Variables</th>
+      <th>Pipes</th>
+      <th>Resultados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{hoy}}</td>
+      <td>date</td>
+      <td>{{hoy | date}}</td>
+    </tr>
+    <tr>
+      <td>{{hoy}}</td>
+      <td>date:"medium"</td>
+      <td>{{hoy | date:"medium"}}</td>
+    </tr>
+    <tr>
+      <td>{{hoy}}</td>
+      <td>date:"dd MMMM yyyy</td>
+      <td>{{hoy | date:"dd MMMM yyyy"}}</td>
+    </tr>
+    <tr>
+      <td>{{nombre}}</td>
+      <td>uppercase</td>
+      <td>{{nombre | uppercase}}</td>
+    </tr>
+    <tr>
+      <td>{{nombre}}</td>
+      <td>lowercase</td>
+      <td>{{nombre | lowercase}}</td>
+    </tr>
+    <tr>
+      <td>{{nombre}}</td>
+      <td>slice:3</td>
+      <td>{{nombre | slice:3}}</td>
+    </tr>
+    <tr>
+      <td>{{nombre}}</td>
+      <td>slice:0:3</td>
+      <td>{{nombre | slice:0:3}}</td>
+    </tr>
+    <tr>
+      <td>{{numeros}}</td>
+      <td>slice:0:3</td>
+      <td>{{numeros | slice:0:3}}</td>
+    </tr>
+    <tr>
+      <td>{{decimal}}</td>
+      <td>number</td>
+      <td>{{decimal | number}}</td>
+    </tr>
+    <tr>
+      <td>{{decimal}}</td>
+      <td>number:"1.0-2"</td>
+      <td>{{decimal | number:"1.0-2"}}</td>
+    </tr>
+    <tr>
+      <td>{{porcentaje}}</td>
+      <td>percent</td>
+      <td>{{porcentaje | percent}}</td>
+    </tr>
+    <tr>
+      <td>{{porcentaje}}</td>
+      <td>percent:'2.2-2'</td>
+      <td>{{porcentaje | percent:'2.2-2'}}</td>
+    </tr>
+    <tr>
+      <td>{{dinero}}</td>
+      <td>currency</td>
+      <td>{{dinero | currency}}</td>
+    </tr>
+    <tr>
+      <td>{{dinero}}</td>
+      <td>currency:'EUR'</td>
+      <td>{{dinero | currency:'EUR'}}</td>
+    </tr>
+    <tr>
+      <td>{{dinero}}</td>
+      <td>currency:'EUR':true:'4.0-0'</td>
+      <td>{{dinero | currency:'EUR':true:'4.0-0'}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
